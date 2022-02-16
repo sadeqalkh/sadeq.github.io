@@ -1,0 +1,101 @@
+<html>
+
+<head>
+
+  <meta charset="utf-8"/>
+  		<meta name="viewport" content="width=device-width">
+  		<title>Sadeq's Portfolio</title>
+  		<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+<!--        initializing the header of the program                            -->
+  <div class="header">
+    <img class="headerlogo" src="images/Main-Logo.png" alt="">
+
+  </div>
+
+  <div class="navigation">
+    <p class="navtext">
+      <!--        reference links to all pages in the navigation                            -->
+      <a href="index.html" target="_blank">Home</a>
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+<a href="recentproject.html" target="_blank">Recent Project</a>
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+<a href="film.html" target="_blank">Film</a>
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+<a href="about.html" target="_blank">About Sadeq</a>
+
+    </p>
+
+  </div>
+  <div class="content">
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container fade">
+
+      <!-- Full images with numbers and message Info -->
+      <div class="Containers">
+        <div class="MessageInfo">1 / 4</div>
+        <img src="images/photo1.jpg" style="width:100%">
+        <div class="Info">Santa Monica</div>
+      </div>
+
+      <div class="Containers">
+        <div class="MessageInfo">2 / 4</div>
+        <img src="images/photo2.jpg" style="width:100%">
+        <div class="Info">A Burst of Nature Over the City of Angeles</div>
+      </div>
+
+      <div class="Containers">
+        <div class="MessageInfo">3 / 4</div>
+        <img src="images/photo3.jpg" style="width:100%">
+        <div class="Info">Downtown Los Angels</div>
+      </div>
+
+      <div class="Containers">
+        <div class="MessageInfo">4 / 4</div>
+        <img src="images/photo4.jpg" style="width:100%">
+        <div class="Info">Griffith Observatory</div>
+      </div>
+
+      <!-- Back and forward buttons -->
+      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The circles/dots -->
+    <div style="text-align:center">
+      <span class="dots" onclick="currentSlide(1)"></span>
+      <span class="dots" onclick="currentSlide(2)"></span>
+      <span class="dots" onclick="currentSlide(3)"></span>
+      <span class="dots" onclick="currentSlide(4)"></span>
+    </div>
+
+  </div>
+
+<div class="footer">
+<!--        including the instagram icon in the footer                            -->
+<!--        icon involves a link that redirects to instagram                            -->
+  <a class="instaicon"
+href="https://www.instagram.com/4dx.b/"> <img src= "buttons/INSTA-TRANSPARENT.png" width="30" alt=""/>
+</a>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>
